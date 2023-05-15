@@ -15,6 +15,10 @@ import org.wltea.analyzer.lucene.IKAnalyzer;
 
 import java.io.File;
 
+
+/**
+ * 演示不同的Field
+ */
 public class LuceneSecond {
     @Test
     public void createIndex() throws Exception {

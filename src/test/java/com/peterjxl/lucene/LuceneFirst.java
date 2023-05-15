@@ -71,7 +71,7 @@ public class LuceneFirst {
         IndexSearcher indexSearcher = new IndexSearcher(indexReader);
 
         // 4. 第四步：创建一个TermQuery对象，指定查询的域和查询的关键词。
-        Query query = new TermQuery(new Term("content", "全文"));
+        Query query = new TermQuery(new Term("name", "spring"));
 
 
         // 5. 第五步：执行查询。得到一个TopDocs对象，包含查询结果的总记录数，和文档列表
